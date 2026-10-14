@@ -23,27 +23,43 @@ This project contains Streamlit applications for English and Indonesian sentimen
 
 ## Installation
 
-Clone the repository:
+#### Clone the repository:
 
 ```bash
 git clone https://github.com/putmul/NB-Sentiment/.git
 cd NB-Sentiment
+```
 
-Create a virtual environment:
-Windows
+#### Create a virtual environment
+Windows:
+```bash
 py -m venv .venv
 .venv\Scripts\activate
+```
 macOS/Linux
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
-Install the dependencies:
+#### Install the dependencies:
+```bash
 python -m pip install -r requirements.txt
+```
 
-Running the Applications
-Run the Indonesian sentiment app: streamlit run bayes_id.py
-Run the English sentiment app: streamlit run bayes_en.py
+#### Running the Applications
+Run the Indonesian sentiment app: 
+```bash
+streamlit run bayes_id.py
+```
+Run the English sentiment app: 
+```bash
+streamlit run bayes_en.py
+```
 
-Preprocessing the Dataset
-To download and regenerate the processed Indonesian dataset: python preprocess.py
+#### Preprocessing the Dataset
+To download and regenerate the processed Indonesian dataset: 
+```bash
+python preprocess.py
+```
 The preprocessing script uses a public Indonesian Twitter sentiment dataset.
