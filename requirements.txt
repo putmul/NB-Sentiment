@@ -1,0 +1,6 @@
+streamlit==1.62.0
+pandas==3.0.5
+textblob==0.20.1
+altair==6.2.2
+vaderSentiment==3.3.2
+Sastrawi==1.0.1
